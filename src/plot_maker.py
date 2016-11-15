@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import spline
 
-data_file_path = 'real-data.csv'
+data_file_path = 'test-data.csv'
 value_separator = ','
 title = 'ąčęėi-xxx-įšųū'
 name_xaxis = 'I, (A)'
