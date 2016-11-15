@@ -55,3 +55,4 @@ if display_legend:
 # title rendering works unpredictably 
 plt.title(title)
 plt.savefig(output_name)
+plt.show()
