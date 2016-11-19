@@ -24,7 +24,6 @@ value_separator = args.value_separator
 title = args.title
 name_xaxis = 'I, (A)'
 name_yaxis = 'U, (V)'
-output_name = 'title-test.png'
 display_legend = True
 yscale = 'linear'
 xscale = 'linear'
@@ -65,5 +64,4 @@ if display_legend:
 
 # title rendering works unpredictably 
 plt.title(title)
-plt.savefig(output_name)
 plt.show()
