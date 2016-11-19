@@ -1,15 +1,27 @@
+#!/home/hermes/anaconda3/bin/python
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
+import argparse
 import pandas
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import spline
 
-data_file_path = 'test-data.csv'
-value_separator = ','
-title = 'ąčęėi-xxx-įšųū'
+# Parse arguments
+parser = argparse.ArgumentParser(prog='Plotter',description='Plots .csv')
+
+parser.add_argument('data_file_name', help='File name')
+parser.add_argument('value_separator', help='The character that is used to denote how values are separated')
+parser.add_argument('--title', metavar='str', help='sets a figure title')
+
+#args = parser.parse_args(['test-data.csv', ',', '--title', 'go.nx'])
+args = parser.parse_args()
+print(args)
+
+file_name = args.data_file_name
+value_separator = args.value_separator
+title = args.title
 name_xaxis = 'I, (A)'
 name_yaxis = 'U, (V)'
 output_name = 'title-test.png'
@@ -17,8 +29,7 @@ display_legend = True
 yscale = 'linear'
 xscale = 'linear'
 
-
-df = pandas.read_csv(data_file_path, value_separator)
+df = pandas.read_csv(file_name, value_separator)
 ncols = len(df.columns)
 headers = df.columns.values.tolist()
 print("Import success!")
