@@ -3,26 +3,26 @@
 from __future__ import unicode_literals
 import argparse
 import pandas
-import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import spline
 
 # Parse arguments
-parser = argparse.ArgumentParser(prog='Plotter',description='Plots .csv')
+parser = argparse.ArgumentParser(prog='Plotter', description='Plots .csv')
 
 parser.add_argument('data_file_name', help='File name')
 parser.add_argument('value_separator', help='The character that is used to denote how values are separated')
 parser.add_argument('--title', metavar='str', help='sets a figure title')
-parser.add_argument('--smooth-type', type=int, choices=range(0, 3),
+parser.add_argument('--smooth-type', type=int, choices=range(0, 3), default=0,
                     help='0 - no smoothing, 1 - spline smoothing')
 parser.add_argument('--interpolation-points', type=int, metavar='int', default=200,
                     help='lets you to set a number of interpolation points for a smooth plot')
 parser.add_argument('--max-xcolumns', type=int, default=4, help='Sets the maximum number of x columns in csv file')
 
-args = parser.parse_args(['test-data.csv', ',', '--title', 'go.nx'])
-#args = parser.parse_args(['test-data.csv', ',', '--smooth-type', '1'])
-#args = parser.parse_args(['--help'])
+#args = parser.parse_args(['data-mock.csv', ',', '--title', 'go.nx'])
+# args = parser.parse_args(['test-data.csv', ',', '--smooth-type', '1'])
+# args = parser.parse_args(['--help'])
+args = parser.parse_args()
 print(args)
 
 file_name = args.data_file_name
@@ -48,12 +48,12 @@ print(headers)
 
 # get all data & start ploting
 x = df[df.columns[0]]
-# TODO: Generate a list of cols where x is found
+# Generate a list of cols where x is found
 cols = list(df.columns)
 chopped_cols = []
-# Todo: aggregate valid colls to a list of lists [[x,y,yy],[xx, 2y, 2yy]]
+# Aggregate valid cols to a list of lists [[x,y,yy],[xx, 2y, 2yy]]
 # Generate list of columns and find the all x cols.
-xheads = list(set(cols) & set([xheader_char*x for x in range(1, max_xcols)]))
+xheads = list(set(cols) & set([xheader_char * x for x in range(1, max_xcols)]))
 xheads.sort()
 xheads_len = len(xheads)
 
@@ -62,41 +62,41 @@ for i in range(0, xheads_len):
     # get the index of x..x  occurence
     start = cols.index(xheads[i])
     # stop is the last entry between x <something> xx
-    if i == xheads_len-1:
+    if i == xheads_len - 1:
         chopped_cols.append(cols[start:])
     else:
-        stop = cols.index(xheads[i+1])
+        stop = cols.index(xheads[i + 1])
         chopped_cols.append(cols[start:stop])
 
+# choped_cols: [[x,y,yy],[xx, 2y, 2yy]]
 print(chopped_cols)
-
-
 print(xheads)
-# FIXME: remove exit line
-exit()
 
-xsmooth = np.array(x)
-xsmooth = np.linspace(xsmooth.min(), xsmooth.max(), ninterpolation_points)
-plt.xscale(xscale)
-plt.yscale(yscale)
-
-# Define axes
+# Define looks
 fig = plt.figure()
 axes = fig.add_subplot(111)
 axes.grid()
 axes.set_xlabel(name_xaxis)
 axes.set_ylabel(name_yaxis)
+plt.xscale(xscale)
+plt.yscale(yscale)
 
-for i in range(1, ncols):
-    y = df[df.columns[i]]
+def plot_chopped_list(chopped_cols, axes, df):
+    # xsmooth = np.array(x)
+    # xsmooth = np.linspace(xsmooth.min(), xsmooth.max(), ninterpolation_points)
 
-    # interpolates y values based on smooth x
-    ysmooth = spline(x, y, xsmooth)
-    axes.plot(xsmooth, ysmooth, label=headers[i])
+    for col in chopped_cols:
+        # grab x's from the dataset. 0 index is always x value
+        x = df[col[0]]
+        ncols = len(col)
+        for i in range(1, ncols):
+            y = df[col[i]]
+            # fixme: add labels with col names afterwards
+            axes.plot(x, y)
 
+plot_chopped_list(chopped_cols, axes, df)
 if display_legend:
     plt.legend(loc='best')
 
-# title rendering works unpredictably 
 plt.title(title)
 plt.show()
