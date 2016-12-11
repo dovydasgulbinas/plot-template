@@ -1,0 +1,49 @@
+SciDAVis 1.0.13 template file
+<multiLayer>	1	1
+geometry	479	85	331	312	active
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	6	5	357	232
+PlotTitle	Perdavimo charakteristikos ir jos statumo palyginimas	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	0	1	0	#c0c0c0	1	1	#a0a0a4	2	1	#c0c0c0	1	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	1	1	0	
+AxesTitles	U<sub>G</sub>, V	lg I<sub>S</sub>, A		I<sub>S</sub>, A	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	4
+TitleFont	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	5	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	5	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	5	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	5	75	0	0	0
+AxisFont0	MS Shell Dlg 2	5	50	0	0	0
+AxisFont1	MS Shell Dlg 2	5	50	0	0	0
+AxisFont2	MS Shell Dlg 2	5	50	0	0	0
+AxisFont3	MS Shell Dlg 2	5	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasFrame	3	#000000
+CanvasBackground	#ffffff	255
+scale	0	1e-05	0.3	0	5	5	1	0
+scale	1	1e-05	0.3	0	5	5	1	0
+scale	2	4	5	0	10	5	0	0
+scale	3	4	5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	3	10
+DrawAxesBackbone	0
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	4.00589680589681	0.101110193395123	MS Shell Dlg 2	5	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Perdavimo charakteristika	\c{2}Perdavimo charatkeristikos perdavimo statumas</text>
+</graph>
+</multiLayer>
