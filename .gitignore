@@ -3,3 +3,8 @@
 src/Lab04.ipynb
 src/title-test.png
 src/test-data.csv
+.idea/
+^.~lock.*
+.~lock.3v3v3_plt.csv
+.~lock*
+.gitignore~
