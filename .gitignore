@@ -8,3 +8,5 @@ src/test-data.csv
 .~lock.3v3v3_plt.csv
 .~lock*
 .gitignore~
+.*~
+*#
