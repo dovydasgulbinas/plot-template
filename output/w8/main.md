@@ -1,8 +1,18 @@
 
-# 8 lab. darbas 
+# 8 lab. darbas
 ## Impulsinės puslaidinkių diodų savybės
 
-#### Rezultatai
+#### Eksperimento rezultatai ir jų aptarimas
+
+Diodo įjungimo įtampos priklausomybė buvo išmatutuota su trimis skirtingomis
+įtampomis (3 V, 6 V, 7 V). Taipat darbo metu buvo naudojami du skirtingu diodai,
+kurie atitinka S1 ir S2 jungiklio padėtis.
+
+Dar buvo išmatuota įtampų ir gyvavimo trukmės priklausomybė su tais pačiais
+S1 ir S2 diodais.  Skačiavimams buvo naudojama ši formulė: ![mobility]
+
+Iš šios formulės buvo rasti šie pagrindiniai dydžiai: ![items]
+
 
 ![s1]
 
@@ -24,3 +34,6 @@
 [sqr-all]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/comp-all-sqr.png?raw=true
 [s1-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S1.png?raw=true
 [s2-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S2.png?raw=true
+
+[mobility]: 
+[items]:
