@@ -12,39 +12,21 @@ Matematiškai tai galima užrašyti, šitaip:
 
 Rasta perdavimo charakteristikų lygtis ![aprox] iš čia išvestinės pagalba buvo rastas statumas: ![slope]
 
-### pav. 1: I tranz. perdavimo charakteristikų ir jų statumo palyginimas
-
 ![statumas1]
-
-### pav. 2: I tranz. perdavimo charakteristikų priklausomybė esant skirtingoms ištakos įtampų vertėms
 
 ![transfer1]
 
-### pav. 3: I tranz. Išėjimo charakteristkų priklausomybė
-
 ![output1]
-
-### pav. 4: I tranz. Nuotėkio srovės priklausomybė
 
 ![nuotekis1]
 
-### pav. 5: II tranz. perdavimo charakteristikų ir jų statumo palyginimas
-
 ![statumas2]
-
-### pav. 6: II tranz. perdavimo charakteristikų priklausomybė esant skirtingoms ištakos įtampų vertėms
 
 ![transfer2]
 
-### pav. 7: II tranz. Išėjimo charakteristkų priklausomybė
-
 ![output2]
 
-### pav. 8: I tranz. Nuotėkio srovės priklausomybė
-
 ![nuotekis2]
-
-
 
 -----------------------------------------------
 
