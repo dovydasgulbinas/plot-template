@@ -10,6 +10,8 @@ Matematiškai tai galima užrašyti, šitaip:
 
 ![formula]
 
+Rasta perdavimo charakteristikų lygtis ![aprox] iš čia išvestinės pagalba buvo rastas statumas: ![slope]
+
 ### pav. 1: I tranz. perdavimo charakteristikų ir jų statumo palyginimas
 
 ![statumas1]
@@ -55,3 +57,6 @@ Matematiškai tai galima užrašyti, šitaip:
 [nuotekis2]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/nuotekis2-changed.png
 
 [formula]: https://latex.codecogs.com/png.latex?%5Clarge%20%5Cfrac%7BdI_s%7D%7BdV%7D%20%3D%20%5Cleft%20%5B%20I_s%20%3D%20y_0%20&plus;%20A%20%5Ccdot%20%5Cexp%7B%5Cfrac%7Bx%7D%7Bt%7D%7D%20%5Cright%20%5D%20%3D%20%5Cfrac%7Bx%7D%7Bt%7D
+
+[aprox]: https://latex.codecogs.com/png.latex?%5Cinline%20%5Clarge%20I_%7Bs%7D%20%3D%20y0%20&plus;%20A%20%5Ccdot%20%5Cexp%7B%5Cfrac%7BU_%7BSG%7D%7D%7Bt%7D%7D
+[slope]: https://latex.codecogs.com/png.latex?%5Cinline%20%5Clarge%20S%20%3D%20A%20%5Ccdot%20%5Cexp%7B%5Cleft%20%28%5Cfrac%7BU_%7BSG%7D%7D%7Bt%7D%20%5Cright%20%29%7D%20%5Ccdot%20%5Cfrac%7B1%7D%7Bt%7D
