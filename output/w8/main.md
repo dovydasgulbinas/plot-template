@@ -5,7 +5,7 @@
 #### Eksperimento rezultatai ir jų aptarimas
 
 Diodo įjungimo įtampos priklausomybė buvo išmatutuota su trimis skirtingomis
-įtampomis (3 V, 6 V, 7 V). Taipat darbo metu buvo naudojami du skirtingu diodai,
+įtampomis (3 V, 6 V, 7 V). Taip pat darbo metu buvo naudojami du skirtingu diodai,
 kurie atitinka S1 ir S2 jungiklio padėtis.
 
 Dar buvo išmatuota įtampų ir gyvavimo trukmės priklausomybė su tais pačiais
