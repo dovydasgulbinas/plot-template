@@ -47,14 +47,15 @@ Rasta perdavimo charakteristikų lygtis ![aprox] iš čia išvestinės pagalba b
 
 -----------------------------------------------
 
-[statumas1]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/statumas1-changed.png
-[transfer1]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/transfer1-changed.png
-[output1]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/output1-changed.png
-[nuotekis1]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/nuotekis1-changed.png
+[statumas1]: https://raw.githubusercontent.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/statumas1-changed.png
+[transfer1]: https://raw.githubusercontent.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/transfer1-changed.png
+[output1]: https://raw.githubusercontent.com/plot-template/blob/w8/output/w4/new-plots/output1-changed.png
+[nuotekis1]: https://raw.githubusercontent.com/plot-template/blob/w8/output/w4/new-plots/nuotekis1-changed.png
 [statumas2]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/statumas2-changed.png
 [transfer2]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/transfer2-changed.png
 [output2]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/output2-changed.png
 [nuotekis2]: https://github.com/megamorphf/plot-template/blob/w8/output/w4/new-plots/nuotekis2-changed.png
+
 
 [formula]: https://latex.codecogs.com/png.latex?%5Clarge%20%5Cfrac%7BdI_s%7D%7BdV%7D%20%3D%20%5Cleft%20%5B%20I_s%20%3D%20y_0%20&plus;%20A%20%5Ccdot%20%5Cexp%7B%5Cfrac%7Bx%7D%7Bt%7D%7D%20%5Cright%20%5D%20%3D%20%5Cfrac%7Bx%7D%7Bt%7D
 
