@@ -41,12 +41,8 @@ Iš šios formulės buvo rasti šie pagrindiniai dydžiai:
 [sqr-all]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/comp-all-sqr.png?raw=true
 [s1-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S1.png?raw=true
 [s2-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S2.png?raw=true
-<<<<<<< HEAD
-[mobility]:
-[items]:
-=======
+
 
 [mobility]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/mobility-formula.PNG?raw=true
 [items]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/items-found.PNG?raw=true
 [table]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/table-calcs.PNG?raw=true
->>>>>>> 34489a10409a641ab8cdc2f7c6d885fa220b94e0
