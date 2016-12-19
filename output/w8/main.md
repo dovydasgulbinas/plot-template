@@ -5,14 +5,21 @@
 #### Eksperimento rezultatai ir jų aptarimas
 
 Diodo įjungimo įtampos priklausomybė buvo išmatutuota su trimis skirtingomis
-įtampomis (3 V, 6 V, 7 V). Taipat darbo metu buvo naudojami du skirtingu diodai,
+įtampomis (3 V, 6 V, 7 V). Taip pat darbo metu buvo naudojami du skirtingu diodai,
 kurie atitinka S1 ir S2 jungiklio padėtis.
 
 Dar buvo išmatuota įtampų ir gyvavimo trukmės priklausomybė su tais pačiais
-S1 ir S2 diodais.  Skačiavimams buvo naudojama ši formulė: ![mobility]
+S1 ir S2 diodais.  Skačiavimams buvo naudojama ši formulė:
 
-Iš šios formulės buvo rasti šie pagrindiniai dydžiai: ![items]
+![mobility]
 
+Iš šios formulės buvo rasti šie pagrindiniai dydžiai:
+
+![items]
+
+### Pagrindinių skaičiavimų lentelė
+
+![table]
 
 ![s1]
 
@@ -34,5 +41,12 @@ Iš šios formulės buvo rasti šie pagrindiniai dydžiai: ![items]
 [sqr-all]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/comp-all-sqr.png?raw=true
 [s1-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S1.png?raw=true
 [s2-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S2.png?raw=true
+<<<<<<< HEAD
 [mobility]:
 [items]:
+=======
+
+[mobility]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/mobility-formula.PNG?raw=true
+[items]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/items-found.PNG?raw=true
+[table]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/table-calcs.PNG?raw=true
+>>>>>>> 34489a10409a641ab8cdc2f7c6d885fa220b94e0
