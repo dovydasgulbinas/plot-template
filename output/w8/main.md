@@ -34,6 +34,5 @@ Iš šios formulės buvo rasti šie pagrindiniai dydžiai: ![items]
 [sqr-all]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/comp-all-sqr.png?raw=true
 [s1-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S1.png?raw=true
 [s2-tau]: https://github.com/megamorphf/plot-template/blob/w8/output/w8/new-plots/S2.png?raw=true
-
-[mobility]: 
+[mobility]:
 [items]:
